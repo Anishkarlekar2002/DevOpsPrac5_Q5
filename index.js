@@ -94,24 +94,3 @@ app.listen(port, () => {
 
 
 
-/////////////Question_3
-echo Switching to D:\MCA\Practical4_Q4\Node_App
-cd D:\MCA\Practical4_Q4\Node_App
-echo Current Directory: %CD%
-
-"D:\Program Files\nodejs\npm.exe" -v
-
-echo Running init...
-"D:\Program Files\nodejs\npm.exe" init -y
-
-echo Running install...
-"D:\Program Files\nodejs\npm.exe" install
-
-echo Running install express...
-"D:\Program Files\nodejs\npm.exe" install express
-
-echo Starting the app...
-"D:\Program Files\nodejs\npm.exe" index.js
-
-
-
