@@ -19,7 +19,7 @@ pipeline {
         stage('Run Docker Container') {
             steps {
                 // Host port 8080 -> Container port 3000
-                bat 'docker run -d -p 8080:4000 --name devopscontainer devops-node-app:latest'
+                bat 'docker run -d -p 8082:4000 --name devopscontainer devops-node-app:latest'
             }
         }
     }
